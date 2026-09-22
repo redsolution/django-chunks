@@ -15,6 +15,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='chunk',
             name='file',
-            field=models.FileField(blank=True, null=True, upload_to=b'uploads', verbose_name='File or image'),
+            field=models.FileField(blank=True, null=True, upload_to='uploads', verbose_name='File or image'),
         ),
     ]
